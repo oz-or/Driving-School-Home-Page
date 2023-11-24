@@ -1,6 +1,6 @@
 import { useWindowScroll, useWindowSize } from "@uidotdev/usehooks";
-import Menu from "../../../assets/Navbar/menu";
-import Phone from "../../../assets/Navbar/phone";
+import Menu from "../../../assets/Navbar/Menu";
+import Phone from "../../../assets/Navbar/Phone";
 import Close from "../../../assets/Navbar/Close";
 import { useState } from "react";
 import { Link } from "react-router-dom";
