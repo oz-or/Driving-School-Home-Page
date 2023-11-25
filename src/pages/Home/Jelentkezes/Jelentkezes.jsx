@@ -27,10 +27,10 @@ function Jelentkezes() {
           </div>
         </div>
       </div>
-      <div className="w-full bg-[#ebebeb] 1280:bg-[url(../../../../../../assets/Home/nkh-background.png)] py-[30px] px-5 1280:flex 1280:justify-center 1280:bg-center 1280:px-16">
+      <div className="w-full bg-[#ebebeb] 1280:bg-[url(assets/Home/nkh-background.png)] py-[30px] px-5 1280:flex 1280:justify-center 1280:bg-center 1280:px-16">
         <div className="flex flex-col items-center text-center 1280:flex-row 1280:gap-x-12 1280:w-[1150px]">
           <img
-            src="assets\Home\nkh-logo.png"
+            src="assets/Home/nkh-logo.png"
             alt="Kiváló Autósiskola"
             className="h-20 1280:h-[111px]"
           />

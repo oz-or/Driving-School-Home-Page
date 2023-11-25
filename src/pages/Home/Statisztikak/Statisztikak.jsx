@@ -57,7 +57,7 @@ function Statisztikak() {
           <div className="px-5 py-[50px]">
             <div className="hidden 1280:block">
               <img
-                src="assets\Home\sosjogsi-logo-bw.svg"
+                src="assets/Home/sosjogsi-logo-bw.svg"
                 alt="SOS Autósiskola Budapest"
                 className="w-[300px] opacity-25"
               />
@@ -76,7 +76,7 @@ function Statisztikak() {
               <div className="flex gap-x-[30px] mb-[30px] w-full">
                 <div className="w-[700px] flex flex-col items-center">
                   <img
-                    src="assets\Home\sosjogsi-logo-bw.svg"
+                    src="assets/Home/sosjogsi-logo-bw.svg"
                     alt="SOS Autósiskola Budapest"
                     className="w-[300px] opacity-25 translate-y-[-25px]"
                   />

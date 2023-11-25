@@ -25,7 +25,7 @@ function Navbar() {
       <header
         className={`${
           !isOpen ? "border-y-[5px]" : "border-t-[5px]"
-        } bg-[url(../../assets/Navbar/header-background-responsive.png)] 1280:bg-[url(../../assets/Navbar/bg.png)]
+        } bg-[url(assets/Navbar/header-background-responsive.png)] 1280:bg-[url(assets/Navbar/bg.png)]
          bg-no-repeat bg-center border-t-[#e8000a] transition duration-500 ${
            y < 200
              ? "1280:shadow-[inset_0_-10px_0_0_#000] border-b-[#040404] shadow-[0_0_8px_rgba(0,0,0,0.6)] 1280:border-b-[30px] border-b-[5px] 1280:pb-9 1280:pt-7 h-[100px] 1280:h-[190px]"

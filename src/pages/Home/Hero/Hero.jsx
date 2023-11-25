@@ -19,7 +19,7 @@ function Hero() {
         <div className="flex flex-col gap-y-2 600:flex-row 600:gap-x-5 1200:gap-x-7 ">
           <Fade in={true} timeout={4000}>
             <img
-              src="assets\Home\main-motorverzum.jpg"
+              src="assets/Home/main-motorverzum.jpg"
               alt="MotorVerzum - motoros védőfelszerelés"
               className="rounded-xl shadow-[0_0_8px_rgba(0,0,0,0.45)] h-[210px] object-cover w-full 600:h-[345px] 600:w-[265px] 1200:w-[277px]"
             />
@@ -29,7 +29,7 @@ function Hero() {
             <div>
               <Fade in={true} timeout={6000}>
                 <img
-                  src="assets\Home\main-visszahivas.jpg"
+                  src="assets/Home/main-visszahivas.jpg"
                   alt="Visszahívást kérek"
                   className="rounded-xl shadow-[0_0_8px_rgba(0,0,0,0.45)] h-[150px] object-cover w-full 600:h-[163px] 1200:w-[277px] "
                 />
@@ -38,7 +38,7 @@ function Hero() {
             <div>
               <Fade in={true} timeout={8000}>
                 <img
-                  src="assets\Home\main-ajandekutalvany.jpg"
+                  src="assets/Home/main-ajandekutalvany.jpg"
                   alt="Jogosítvány ajándékutalvány"
                   className="rounded-xl shadow-[0_0_8px_rgba(0,0,0,0.45)]  object-cover h-[150px] w-full 600:h-[161px] 1200:w-[277px] 1200:h-[150px] "
                 />
