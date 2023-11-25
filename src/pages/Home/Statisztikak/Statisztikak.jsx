@@ -1,5 +1,5 @@
 import { useWindowSize } from "@uidotdev/usehooks";
-import Lightbulb from "../../../../assets/Home/lightbulb";
+import Lightbulb from "../../../../assets/Home/Lightbulb";
 import AKOTable from "./Tables/AKOTable";
 import KKTable from "./Tables/KKTable";
 import VSMTable from "./Tables/VSMTable";
