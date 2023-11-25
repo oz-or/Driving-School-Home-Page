@@ -14,12 +14,9 @@ import Teherauto from "../../../assets/Navbar/Teherauto";
 import Motor from "../../../assets/Navbar/Motor";
 
 function Navbar() {
-  //TODO: I have to make the navbar bigger when the user scrolls to a certain position
-
   const window = useWindowSize();
 
   const [{ y }] = useWindowScroll();
-  console.log(y);
 
   const [isOpen, setIsOpen] = useState(false);
 
