@@ -14,7 +14,7 @@ ol li {
 
 /* ELearning section */
 .elearning-bg {
-  background: url(../assets/Home/title-background.png);
+  background: url(./assets/Home/title-background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50px

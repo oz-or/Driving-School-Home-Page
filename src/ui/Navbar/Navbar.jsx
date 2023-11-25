@@ -1,17 +1,17 @@
 import { useWindowScroll, useWindowSize } from "@uidotdev/usehooks";
-import Menu from "../../../assets/Navbar/Menu";
-import Phone from "../../../assets/Navbar/Phone";
-import Close from "../../../assets/Navbar/Close";
+import Menu from "../../assets/Navbar/Menu";
+import Phone from "../../assets/Navbar/Phone";
+import Close from "../../assets/Navbar/Close";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import NavbarVehicleCategoryItem from "./NavbarVehicleCategoryItem";
 import NavbarBlackBgListItem from "./NavbarBlackBgListItem";
 import MobileNavbar from "./MobileNavbar/MobileNavbar";
-import Busz from "../../../assets/Navbar/Busz";
-import Car from "../../../assets/Navbar/Car";
-import Potkocsi from "../../../assets/Navbar/Potkocsi";
-import Teherauto from "../../../assets/Navbar/Teherauto";
-import Motor from "../../../assets/Navbar/Motor";
+import Busz from "../../assets/Navbar/Busz";
+import Car from "../../assets/Navbar/Car";
+import Potkocsi from "../../assets/Navbar/Potkocsi";
+import Teherauto from "../../assets/Navbar/Teherauto";
+import Motor from "../../assets/Navbar/Motor";
 
 function Navbar() {
   const window = useWindowSize();
@@ -135,7 +135,7 @@ function Navbar() {
             <Link to="/motorosbolt">
               <li className="flex items-center gap-x-1 px-2.5">
                 <img
-                  src="../../../assets/Navbar/motorverzum-logo.png"
+                  src="../../assets/Navbar/motorverzum-logo.png"
                   alt="MotorVerzum Motorosbolt"
                   className="h-[20px]"
                 />

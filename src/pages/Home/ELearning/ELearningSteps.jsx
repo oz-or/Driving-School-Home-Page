@@ -1,4 +1,4 @@
-import AngleDoubleRight from "../../../../assets/Home/AngleDoubleRight";
+import AngleDoubleRight from "../../../assets/Home/AngleDoubleRight";
 
 function ELearningSteps() {
   return (
