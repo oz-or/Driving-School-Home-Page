@@ -1,10 +1,10 @@
-import KisPotkocsi from "../../../assets/Home/KisPotkocsi";
-import SegedmotorosKerekpar from "../../../assets/Home/SegedmotorosKerekpar";
-import Busz from "../../../assets/Navbar/Busz";
-import Car from "../../../assets/Navbar/Car";
-import Motor from "../../../assets/Navbar/Motor";
-import Potkocsi from "../../../assets/Navbar/Potkocsi";
-import Teherauto from "../../../assets/Navbar/Teherauto";
+import KisPotkocsi from "../../../svgs/home/KisPotkocsi.jsx";
+import SegedmotorosKerekpar from "../../../svgs/home/SegedmotorosKerekpar.jsx";
+import Busz from "../../../svgs/navbar/Busz.jsx";
+import Car from "../../../svgs/navbar/Car.jsx";
+import Motor from "../../../svgs/navbar/Motor.jsx";
+import Potkocsi from "../../../svgs/navbar/Potkocsi.jsx";
+import Teherauto from "../../../svgs/navbar/Teherauto.jsx";
 import ELearningCategoryItem from "./ELearningCategoryItem";
 
 function ELearningCategories() {

@@ -1,4 +1,4 @@
-import AngleDoubleRight from "../../../assets/Home/AngleDoubleRight";
+import AngleDoubleRight from "../../../svgs/home/AngleDoubleRight";
 
 function ELearningSteps() {
   return (
@@ -6,7 +6,7 @@ function ELearningSteps() {
       <div className="flex text-[#040404] justify-center 600:gap-x-0 gap-x-8 relative">
         <div className="relative">
           <img
-            src="assets/Home/el-step-1.svg"
+            src="/Home/el-step-1.svg"
             className="w-[81px] 600:w-[150px] 600:relative 600:z-40"
           />
           <span className="absolute text-xs font-bold top-[46px] left-3 600:text-sm 600:py-3 600:w-[120px] 600:left-4 600:top-20 600:bg-[#e8000a] 600:rounded-xl  600:text-white 600:text-center 1000:top-20  ">
@@ -20,7 +20,7 @@ function ELearningSteps() {
 
         <div className="relative">
           <img
-            src="assets/Home/el-step-2.svg"
+            src="/Home/el-step-2.svg"
             className="w-[81px] 600:w-[150px] 600:relative 600:z-40"
           />
           <span className="absolute text-xs font-bold top-[46px] left-5 600:text-sm 600:py-3 600:w-[120px] 600:left-[14px] 600:top-20 600:bg-[#e8000a] 600:rounded-xl  600:text-white 600:text-center 1000:top-20 ">
@@ -34,7 +34,7 @@ function ELearningSteps() {
 
         <div className="relative">
           <img
-            src="assets/Home/el-step-3.svg"
+            src="/Home/el-step-3.svg"
             className="w-[81px] 600:w-[150px] 600:relative 600:z-40"
           />
           <span className="absolute text-xs font-bold top-[46px] left-[18px] 600:text-sm 600:py-3 600:w-[120px] 600:left-4 600:top-20 600:bg-[#e8000a] 600:rounded-xl  600:text-white 600:text-center 1000:top-20 ">

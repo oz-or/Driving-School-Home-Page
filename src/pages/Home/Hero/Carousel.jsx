@@ -41,21 +41,21 @@ function Carousel() {
       <div className="carousel-inner rounded-xl shadow-[0_0_8px_rgba(0,0,0,0.45)]">
         <div className="carousel-item active" data-bs-interval="5000">
           <img
-            src="assets/Home/main-oc-elearning-simplepay.jpg"
+            src="/Home/main-oc-elearning-simplepay.jpg"
             alt="Prémium B kategóriás e-learning elméleti tanfolyam!"
             className="rounded-r-xl  object-cover w-full 600:ml-14 600:h-[345px] 600:w-[530px]"
           />
         </div>
         <div className="carousel-item" data-bs-interval="5000">
           <img
-            src="assets/Home/main-oc-motoros-vezetestechnikai-kepzes-2017.jpg"
+            src="/Home/main-oc-motoros-vezetestechnikai-kepzes-2017.jpg"
             alt="Ingyenes motoros biztonságtechnikai tréning!"
             className="rounded-r-xl   object-cover w-full 600:ml-14 600:h-[345px] 600:w-[530px]"
           />
         </div>
         <div className="carousel-item" data-bs-interval="5000">
           <img
-            src="assets/Home/main-oc-gki-kepzes-megujitas.jpg"
+            src="/Home/main-oc-gki-kepzes-megujitas.jpg"
             alt="GKI tanfolyam, GKI megújítás most ingyen e-learning képzéssel!"
             className="rounded-r-xl  object-cover w-full 600:ml-14 600:h-[345px] 600:w-[530px]"
           />

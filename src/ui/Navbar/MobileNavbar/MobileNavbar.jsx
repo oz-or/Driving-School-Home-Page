@@ -21,7 +21,7 @@ function MobileNavbar({ isOpen }) {
 
           <li className="flex items-center gap-x-1">
             <img
-              src="../../../assets/Navbar/motorverzum-logo.png"
+              src="/Navbar/motorverzum-logo.png"
               alt="MotorVerzum Motorosbolt"
               className="h-[25px]"
             />

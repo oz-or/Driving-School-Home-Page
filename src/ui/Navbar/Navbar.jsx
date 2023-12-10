@@ -1,17 +1,17 @@
 import { useWindowScroll, useWindowSize } from "@uidotdev/usehooks";
-import Menu from "../../assets/Navbar/Menu";
-import Phone from "../../assets/Navbar/Phone";
-import Close from "../../assets/Navbar/Close";
+import Menu from "../../svgs/navbar/Menu.jsx";
+import Phone from "../../svgs/navbar/Phone.jsx";
+import Close from "../../svgs/navbar/Close.jsx";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import NavbarVehicleCategoryItem from "./NavbarVehicleCategoryItem";
 import NavbarBlackBgListItem from "./NavbarBlackBgListItem";
 import MobileNavbar from "./MobileNavbar/MobileNavbar";
-import Busz from "../../assets/Navbar/Busz";
-import Car from "../../assets/Navbar/Car";
-import Potkocsi from "../../assets/Navbar/Potkocsi";
-import Teherauto from "../../assets/Navbar/Teherauto";
-import Motor from "../../assets/Navbar/Motor";
+import Busz from "../../svgs/navbar/Busz.jsx";
+import Car from "../../svgs/navbar/Car.jsx";
+import Potkocsi from "../../svgs/navbar/Potkocsi.jsx";
+import Teherauto from "../../svgs/navbar/Teherauto.jsx";
+import Motor from "../../svgs/navbar/Motor.jsx";
 
 function Navbar() {
   const window = useWindowSize();
@@ -25,7 +25,7 @@ function Navbar() {
       <header
         className={`${
           !isOpen ? "border-y-[5px]" : "border-t-[5px]"
-        } bg-[url(assets/Navbar/header-background-responsive.png)] 1280:bg-[url(assets/Navbar/bg.png)]
+        } bg-[url(/Navbar/header-background-responsive.png)] 1280:bg-[url(/Navbar/bg.png)]
          bg-no-repeat bg-center border-t-[#e8000a] transition duration-500 ${
            y < 200
              ? "1280:shadow-[inset_0_-10px_0_0_#000] border-b-[#040404] shadow-[0_0_8px_rgba(0,0,0,0.6)] 1280:border-b-[30px] border-b-[5px] 1280:pb-9 1280:pt-7 h-[100px] 1280:h-[190px]"
@@ -36,7 +36,7 @@ function Navbar() {
           className={`h-[90px] px-5 1280:px-0 flex items-center justify-between 1200:w-[1200px] `}
         >
           <img
-            src="../../assets/Navbar/sosjogsi-logo.svg"
+            src="/Navbar/sosjogsi-logo.svg"
             alt="SOS Autósiskola Budapest"
             className={`h-[80px] 1280:h-[113px] cursor-pointer hover:opacity-60 transition duration-500  ${
               y >= 200 && "1280:translate-y-1"
@@ -135,7 +135,7 @@ function Navbar() {
             <Link to="/motorosbolt">
               <li className="flex items-center gap-x-1 px-2.5">
                 <img
-                  src="../../assets/Navbar/motorverzum-logo.png"
+                  src="/Navbar/motorverzum-logo.png"
                   alt="MotorVerzum Motorosbolt"
                   className="h-[20px]"
                 />

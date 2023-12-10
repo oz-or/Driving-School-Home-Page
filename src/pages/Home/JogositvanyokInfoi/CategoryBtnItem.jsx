@@ -13,7 +13,7 @@ function CategoryBtnItem({ categoryletter, to }) {
         {categoryletter}
       </span>
 
-      <button className="bg-[url(assets/Home/dotted-btn-border.svg)] bg-center bg-cover bg-no-repeat text-[#e8000a] font-semibold uppercase w-[220px] h-[50px]">
+      <button className="bg-[url(/Home/dotted-btn-border.svg)] bg-center bg-cover bg-no-repeat text-[#e8000a] font-semibold uppercase w-[220px] h-[50px]">
         Érdekel
       </button>
     </motion.div>
